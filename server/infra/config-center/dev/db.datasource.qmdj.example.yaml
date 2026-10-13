@@ -1,0 +1,13 @@
+configKey: db.datasource.qmdj
+value:
+  datasourceKey: qmdj
+  dbType: postgresql
+  hostIp: localhost
+  port: 5432
+  databaseName: qmdj
+  username: replace-me
+  password: replace-me
+  poolMax: 20
+  poolIdleMs: 30000
+  poolAcquireTimeoutMs: 5000
+  tlsEnabled: false

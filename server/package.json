@@ -1,0 +1,15 @@
+{
+  "name": "wisdomcare-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node src/server.mjs --env=dev",
+    "start": "node src/server.mjs --env=prod",
+    "check:dev": "node scripts/check-database.mjs --env=dev",
+    "check:prod": "node scripts/check-database.mjs --env=prod",
+    "test": "node --test"
+  },
+  "dependencies": { "pg": "8.11.3" }
+}
